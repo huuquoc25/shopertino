@@ -1,6 +1,7 @@
 import { View, Text, Image, TouchableOpacity, StyleSheet, Button } from 'react-native'
 import CheckBox from 'react-native-check-box';
 import Navbar from '../components/Navbar';
+import { useState } from 'react';
 
 const Screen7 = () => {
     const [isSelected, setSelection] = useState(false);
